@@ -30,7 +30,7 @@ function entrar() {
                 }
             })
             if (logado == true) {
-                window.location.href = "";
+                window.location.href = "https://rodrigotech.shop/";
                 let token = Math.random().toString(32).substr(2) + Math.random().toString(32).substr(2) + Math.random().toString(32).substr(2);
                 localStorage.setItem('token', token);
                 localStorage.setItem('usuarioLogado', JSON.stringify(usuario));
